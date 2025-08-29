@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.1"/>
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>9850b1ef-4044-46b1-85be-193412fac52d</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.1"/>
+        <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="9.4.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Project.Tazo.Order\src\Project.Tazo.Order.Api\Project.Tazo.Order.Api.csproj" />
+      <ProjectReference Include="..\Project.Tazo.Product\src\Project.Tazo.Product.Api\Project.Tazo.Product.Api.csproj" />
+    </ItemGroup>
+
+</Project>

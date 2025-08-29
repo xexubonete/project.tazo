@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Tazo.Order", "Project.Tazo.Order", "{6DC7DBE8-2889-4644-AF0C-86AD361E3C63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{187F27C0-185D-4B93-8743-508CEE01B38D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tazo.Order.Api", "Project.Tazo.Order\src\Project.Tazo.Order.Api\Project.Tazo.Order.Api.csproj", "{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project.Tazo.Product", "Project.Tazo.Product", "{B849B88B-4C0F-489E-9BE6-190F82113020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88DE4012-FD35-4260-B2B3-7F60385532D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tazo.Product.Api", "Project.Tazo.Product\src\Project.Tazo.Product.Api\Project.Tazo.Product.Api.csproj", "{3990A7E9-E883-4DD6-99F2-29A59687325C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{B7BD2E32-420F-4A86-8372-28653CA9C3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tazo.Aspire.AppHost", "Project.Tazo.Aspire.AppHost\Project.Tazo.Aspire.AppHost.csproj", "{DDBC9A8A-0474-4EFE-92D2-BB0D30920D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3990A7E9-E883-4DD6-99F2-29A59687325C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3990A7E9-E883-4DD6-99F2-29A59687325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3990A7E9-E883-4DD6-99F2-29A59687325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3990A7E9-E883-4DD6-99F2-29A59687325C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BD2E32-420F-4A86-8372-28653CA9C3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BD2E32-420F-4A86-8372-28653CA9C3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD2E32-420F-4A86-8372-28653CA9C3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BD2E32-420F-4A86-8372-28653CA9C3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBC9A8A-0474-4EFE-92D2-BB0D30920D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBC9A8A-0474-4EFE-92D2-BB0D30920D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBC9A8A-0474-4EFE-92D2-BB0D30920D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBC9A8A-0474-4EFE-92D2-BB0D30920D64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{187F27C0-185D-4B93-8743-508CEE01B38D} = {6DC7DBE8-2889-4644-AF0C-86AD361E3C63}
+		{C0DBFA83-A8F1-45B7-9EDB-B24B4464535B} = {187F27C0-185D-4B93-8743-508CEE01B38D}
+		{88DE4012-FD35-4260-B2B3-7F60385532D8} = {B849B88B-4C0F-489E-9BE6-190F82113020}
+		{3990A7E9-E883-4DD6-99F2-29A59687325C} = {88DE4012-FD35-4260-B2B3-7F60385532D8}
+	EndGlobalSection
+EndGlobal

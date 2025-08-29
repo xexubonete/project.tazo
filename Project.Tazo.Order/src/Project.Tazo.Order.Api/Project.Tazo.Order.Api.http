@@ -1,0 +1,6 @@
+@Project.Tazo.Order.Api_HostAddress = http://localhost:5137
+
+GET {{Project.Tazo.Order.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
