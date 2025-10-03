@@ -1,6 +1,7 @@
 using Wolverine;
 using Wolverine.RabbitMQ;
 using Contracts;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,13 @@ builder.Host.UseWolverine(opts =>
     // Este servicio escucha la cola
     opts.ListenToRabbitQueue("products.order-created");
 });
+
+// builder.Services.AddDbContext<MyDbContext>((sp, options) =>
+// {
+//     var connStr = sp.GetRequiredService<IConfiguration>()
+//         .GetConnectionString("postgres-db");
+//     options.UseNpgsql(connStr);
+// });
 
 var app = builder.Build();
 app.Run();
